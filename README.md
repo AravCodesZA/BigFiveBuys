@@ -6,7 +6,7 @@ A secure South African C2C e-commerce platform built using HTML, CSS, JS, PHP, a
 - **Frontend:** HTML, CSS, JavaScript (jQuery)
 - **Backend:** PHP
 - **Database:** MySQL
-- **Optional Framework:** Bootstrap
+- **Framework:** Bootstrap
 
 ---
 
@@ -71,7 +71,7 @@ This project is for **educational purposes only** under the Eduvos academic guid
 
 ## 📣 Contact
 
-**Developer:** [Your Name]  
-**Email:** [Your Email]  
+**Developer:** Arav Baboolal 
+**Email:** aravbaboolal22@gmail.com 
 **Institution:** Eduvos  
 **Module:** ITECA3-12 (Web Development & E-Commerce)
