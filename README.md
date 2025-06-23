@@ -1,87 +1,100 @@
-BigFiveBuys  
-A secure and user-friendly South African C2C e-commerce platform built to empower local entrepreneurs, informal sellers, and digital buyers.
+# BigFiveBuys
 
-🔧 Tech Stack
+A secure, responsive, and user-friendly South African **C2C e-commerce platform**, built to empower local entrepreneurs, informal traders, and digital buyers. Designed with simplicity and trust at its core, BigFiveBuys offers a modern alternative to OLX and Facebook Marketplace — owned, hosted, and operated locally.
 
-- **Frontend:** HTML, CSS, JavaScript (jQuery)
-- **Backend:** PHP (Vanilla PHP, no CMS)
-- **Database:** MySQL
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript (jQuery)  
+- **Backend:** PHP (Vanilla PHP, no CMS)  
+- **Database:** MySQL  
 - **Frameworks & Tools:** Bootstrap 5, FontAwesome, AOS (Animate on Scroll)
 
+---
 
-✅ Features
+## ✅ Key Features
 
-- 🔐 **User Authentication**: Secure login/registration with role-based access (`admin` and `user`)
-- 🛍️ **Product Management**: Post, update, browse, and view products with live search and filters
-- 🧑‍💼 **Admin Dashboard**: Admin control panel to manage users, products, and generate reports
-- 💬 **Buyer–Seller Interaction**: Simulated messaging (foundation built for future integration)
-- 📷 **Image Uploads**: Product images stored securely in `/uploads/`, validated on upload
-- 🔎 **Search & Filter**: Dynamic product search, min/max price filters
-- 📱 **Mobile-Friendly**: Responsive and optimized for all screen sizes
-- 🧾 **Report Generation**: Includes dummy data for admin reporting and printable invoices
+- 🔐 **Authentication:** Secure login/registration with role-based access (`admin`, `user`)  
+- 🛍️ **Product Management:** Post, update, browse, and view products with advanced filtering  
+- 🧑‍💼 **Admin Dashboard:** Manage users, products, and generate downloadable reports  
+- 💬 **Communication Ready:** Simulated buyer–seller chat foundation  
+- 📷 **Image Uploads:** Secure upload with file validation  
+- 🔎 **Search & Filter:** Keyword, min/max price filters  
+- 📱 **Mobile-Responsive UI:** Seamless experience on all devices  
+- 🧾 **Admin Reporting:** Downloadable invoices and dummy data for testing
 
+---
 
-🛡️ Security Features
+## 🛡️ Security Features
 
-- ✅ **Session Management**: Role-based access control via `$_SESSION`
-- ✅ **SQL Injection Protection**: All inserts use `mysqli_prepare()` and `bind_param()`
-- ✅ **XSS Protection**: All form inputs and outputs sanitized using `htmlspecialchars()` and `mysqli_real_escape_string()`
-- ✅ **File Upload Safety**: Only image MIME types accepted; uploaded via `move_uploaded_file()` into a locked `uploads/` directory
-- ✅ **Access Restrictions**: Only verified sellers can post products, and only logged-in users can browse/view fully
-- ✅ **Error Handling**: Full error visibility in development; silent logging ready for production
+- ✅ **Session-Based Access:** Pages protected using `$_SESSION` checks  
+- ✅ **SQL Injection Prevention:** All inputs passed via `mysqli_prepare()` and `bind_param()`  
+- ✅ **XSS Prevention:** All user inputs sanitized with `htmlspecialchars()` and `mysqli_real_escape_string()`  
+- ✅ **Upload Protection:** Only image MIME types accepted, securely moved to `/uploads/`  
+- ✅ **Seller Verification:** Only verified sellers can post products  
+- ✅ **Error Control:** Developer-mode error reporting; production-safe fallback ready
 
+---
 
-📁 Deliverables
+## 📁 Project Deliverables
 
-- ✅ System Design Diagrams: CRC Cards, Enhanced ERD, Context Diagram, DFD, Use Case Diagram
-- ✅ Wireframes: Custom UI sketches for user flow and admin UX
-- ✅ Complete Source Code: Frontend and backend with organized logic
-- ✅ Admin Features: Edit/Delete user or product, generate reports, moderate listings
-- ✅ Dummy Data: Auto-filled test accounts and products
-- ✅ Hosting & User Manual: Fully deployed and documented on InfinityFree
+- ✅ Full UI/UX wireframes and layout plans  
+- ✅ System Design Diagrams (CRC, EERD, DFD, Use Case, Context Diagram)  
+- ✅ Fully functional front-end and back-end  
+- ✅ Admin control panel with CRUD and reporting tools  
+- ✅ Preloaded dummy data for demonstration  
+- ✅ Complete user manual and live deployment
 
-🎯 Project Goal
+---
 
-BigFiveBuys was designed to address the **growing distrust and digital exclusion** within South Africa’s informal online market. With 70%+ of consumers citing fraud and scam concerns on C2C platforms, this site offers:
+## 🎯 Project Objective
 
-- Verified seller workflows  
-- Transparent listings with structured feedback  
-- A locally hosted, community-owned alternative to OLX/Facebook Marketplace  
+This platform addresses widespread **distrust in online consumer-to-consumer platforms** in South Africa. It aims to:
 
-The aim is to **democratize access to digital trade** and **stimulate the informal economy** with tech that is easy to use, trustworthy, and scalable.
+- Enable safer peer-to-peer trade  
+- Offer a local alternative to foreign-owned marketplaces  
+- Improve seller credibility and verification  
+- Encourage digital participation from informal businesses  
 
+With over **70% of South African users citing fraud as a key barrier to e-commerce**, BigFiveBuys fills a crucial gap by **restoring trust** and keeping value within the local economy.
 
-📆 Timeline (Key Milestones)
+---
 
-| Phase                | Tasks                                            | Dates                |
-|---------------------|--------------------------------------------------|----------------------|
-| 🧠 Research & Planning | Problem identification, requirement gathering   | 3 Feb – 28 Feb, 2025 |
-| 🛠️ Design & Development | UI/UX, database schema, core coding             | 28 Feb – 6 Jun, 2025 |
-| 🚀 Deployment & Testing | Hosting, user manual, final presentation        | 6 Jun – 30 Jun, 2025  |
+## 📆 Timeline
 
+| Phase                   | Task Overview                                  | Dates                |
+|------------------------|-------------------------------------------------|----------------------|
+| 🧠 Planning             | Problem definition, scope, goal setting         | 3 Feb – 28 Feb 2025  |
+| 🛠️ Design & Development | UI, DB schema, full code implementation         | 28 Feb – 6 Jun 2025  |
+| 🚀 Deployment           | Hosting, user testing, presentation delivery    | 6 Jun – 30 Jun 2025  |
 
-🌐 Hosting
+---
 
-Live demo hosted via **InfinityFree**  
+## 🌐 Live Demo
+
+Hosted on **InfinityFree**  
 🌍 [https://bigfivebuys.infinityfreeapp.com](https://bigfivebuys.infinityfreeapp.com)
 
+---
 
-🧾 License
+## 🧾 License
 
-This project is created for **educational purposes only** under Eduvos academic submission guidelines.  
-No commercial use is permitted without permission.
+This project was created for **academic and educational purposes only**, in accordance with **Eduvos** assessment policies.  
+Use or distribution outside this context requires permission.
 
+---
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 
-- Research inspired by:  
-  *Ruttell, B. (2018).* *Buyers’ trust and seller verification in South African C2C platforms.*
-- Faculty guidance and infrastructure by **Eduvos**, Department of Information Technology.
+- Research: *Ruttell, B. (2018). Buyers’ trust and seller verification in South African C2C platforms.*  
+- Academic support provided by the **Eduvos Faculty of Information Technology**
 
+---
 
-📣 Contact
+## 📣 Contact
 
 **Developer:** Arav Baboolal  
-**Email:** aravbaboolal22@gmail.com  
-**Institution:** Eduvos  
-**Module:** ITECA3-12 (Web Development & E-Commerce)
+📧 **Email:** aravbaboolal22@gmail.com  
+🏫 **Institution:** Eduvos  
+📘 **Module:** ITECA3-12 – Web Development & E-Commerce
