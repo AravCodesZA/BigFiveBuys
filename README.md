@@ -1,6 +1,6 @@
 # BigFiveBuys
 
-A secure, responsive, and user-friendly South African **C2C e-commerce platform**, built to empower local entrepreneurs, informal traders, and digital buyers. Designed with simplicity and trust at its core, BigFiveBuys offers a modern alternative to OLX and Facebook Marketplace — owned, hosted, and operated locally.
+A secure, responsive, and user-friendly South African **C2C e-commerce platform**, built to empower local entrepreneurs, informal traders, and digital buyers. Designed with simplicity and trust at its core, BigFiveBuys offers a modern alternative to OLX and Facebook Marketplace which is owned, hosted, and operated locally.
 
 ---
 
@@ -17,7 +17,7 @@ A secure, responsive, and user-friendly South African **C2C e-commerce platform*
 
 - 🔐 **Authentication:** Secure login/registration with role-based access (`admin`, `user`)  
 - 🛍️ **Product Management:** Post, update, browse, and view products with advanced filtering  
-- 🧑‍💼 **Admin Dashboard:** Manage users, products, and generate downloadable reports  
+- 🧑‍💼**Admin Dashboard:** Manage users, products, and generate downloadable reports  
 - 💬 **Communication Ready:** Simulated buyer–seller chat foundation  
 - 📷 **Image Uploads:** Secure upload with file validation  
 - 🔎 **Search & Filter:** Keyword, min/max price filters  
