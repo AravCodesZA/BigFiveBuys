@@ -89,7 +89,7 @@ Under Safe Browsing, temporarily switch from “Enhanced” to “No protection 
 
 Reload the site.
 
-If it works, immediately switch Safe Browsing back on once you’re done viewing.
+If it works, immediately switch Safe Browsing back on once you’re done.
 ---
 
 ## 🧾 License
