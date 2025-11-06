@@ -75,7 +75,18 @@ With over **70% of South African users citing fraud as a key barrier to e-commer
 
 Hosted on **InfinityFree**  
 🌍 [https://bigfivebuys.infinityfreeapp.com](https://bigfivebuys.infinityfreeapp.com)
+NOTE: When you click on this link, you will have recieve a security error due to Google's safe browsing.
+To view the webiste you can do so using these steps:
 
+Copy the URL, then:
+Open a private/incognito window.
+
+Type: chrome://settings/security
+Under Safe Browsing, temporarily switch from “Enhanced” to “No protection (not recommended)”.
+
+Reload the site.
+
+If it works, immediately switch Safe Browsing back on once you’re done viewing.
 ---
 
 ## 🧾 License
